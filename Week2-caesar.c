@@ -23,7 +23,7 @@ int main (int argc, string argv[])
 
     char plaintext[50]={0};
     char ciphertext[50]={0};
-    printf("plaintext:");
+    printf("plaintext: ");
     scanf("%[^\n]", plaintext);             //保证scanf能够收入空格
     int key = atoi(argv[1]);                //将字符串转换成整形
 
